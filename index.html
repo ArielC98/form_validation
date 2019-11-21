@@ -8,12 +8,28 @@
   </head>
   <body>
     <div id="wrapper">
-      <label for="email">Email</label>
-      <input type="text" name="email" id="email" placeholder="eg. yourname@gmail.com">
-      <label for="phone">Telephone</label>
-      <input type="text" name="phone" id="phone" placeholder="eg. 0987654321">
+      <div id="errorMessage"></div>
+      <div class="form-element">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="eg. yourname@gmail.com">
+      </div>
+      <div class="form-element">
+        <label for="phone">Telephone</label>
+        <input type="text" name="phone" id="phone" placeholder="eg. 0987654321">
+      </div>
+      <div class="form-element">
+        <label for="phone">Password</label>
+        <input type="password" name="password" id="password" >
+      </div>
+      <div class="form-element">
+        <label for="phone">Confirm Password</label>
+        <input type="password" name="confirm-password" id="confirm-password">
+      </div>
+      <div class="form-elemnt">
+        <input type="submit" name="submit-button" id="submit-button" value="Sign Up">
+      </div>
+      <div id="successMessage">You signed up correctly!</div>
     </div>
-
 <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

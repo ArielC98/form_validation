@@ -1,6 +1,6 @@
 body{
   font-family: sans-serif;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 input{
@@ -8,18 +8,52 @@ input{
   font-size: 25px;
   border-radius: 5px;
   border:1px solid grey;
-  width: 320px;
+  width: 350px;
   margin: 0 10px;
 }
 
 label{
   position: relative;
-  top:5px;
+  top:12px;
   float:left;
-  width:150px;
+  width:200px;
 }
 
 #wrapper{
-  width: 520px;
+  width: 600px;
   margin: 40px auto;
+  background-color: rgb(1, 247, 210);
+  padding: 10px;
+  border-radius: 20px;
+  border: 7px rgb(24, 123, 215) dashed;
+}
+
+.form-element{
+  margin-bottom: 10px;
+}
+
+#submit-button{
+  width: 130px;
+  margin-left: 200px;
+}
+
+#submit-button:hover{
+  cursor: pointer;
+}
+
+#errorMessage{
+  background-color: #ff6666;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+#successMessage{
+
+  width:50%;
+  height:10%;
+  background-color:rgb(42, 252, 132);
+  margin:10px auto;
+  display: none;
+  border-radius: 20px;
+  text-align: center;
 }
